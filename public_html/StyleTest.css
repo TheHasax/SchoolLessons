@@ -1,0 +1,54 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07-09-2016, 09:25:59
+    Author     : TheHasax
+*/
+
+
+ul {
+    font-family: Berlin Sans FB Demi;
+    color: grey;
+    font-size: 20px;
+}
+header {
+    font-family: Ariel;
+    color: black;
+    font-size: 25px;
+}
+nav ul li {
+    display:inline;
+}
+nav ul li a:link {
+    text-decoration: none;
+    border: 1px black ;
+    padding: 5px;
+    border-radius: 10px;
+    color: black;
+}
+nav ul li a:visited {
+    color: black;
+}
+nav ul li a:hover {
+    background-color: black;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+}
+nav {
+    background-color: rgba(255, 255, 255, .4);
+    padding: 3px;
+    border-radius: 3px;
+    font-size: 30px;
+}
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+body {
+    background-image: url('images/dots.jpg');
+        background-position: center center;
+}
